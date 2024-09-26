@@ -1,0 +1,58 @@
+/* ============== FONT IMPORTS ============== */
+
+
+@font-face {
+    font-family: 'Kirang Haerang';
+    src: url('src/fonts/KirangHaerang-Regular.woff2') format('woff2'),
+        url('src/fonts/KirangHaerang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --charcoal: #051A1A;
+    --candelLight: #FFDA1D;
+    --justWhite: #FFFFFF;
+    --jungleGreen: #163A3A;
+    --plantGreen: #179446;
+    --pictonBlue: #3DBAE1;
+    --copy-font: 'Apercu pro', sans-serif;
+    --paragraph-font: 'Jubilat', serif;
+    --header-font: 'Kirang Haerang', sans-serif;
+    --link-hover-color: #FFDA1D;
+    --button-hover-color: #FFFFFF;
+    --top-nav-sponsor-button-hover-color: #051A1A;
+}
+
+
+body {
+    font-family: var(--copy-font);
+    background-color: var(--charcoal);
+    color: var(--justWhite);
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    overflow-y: scroll; 
+    overflow-x: scroll;
+}
+
+main{
+    margin-top: 6em;
+}
+
+h1,h2 {
+    font-family: 'Kirang Haerang';
+}
